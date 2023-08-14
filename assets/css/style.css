@@ -1,5 +1,23 @@
+/* Override Bootstrap styles with your custom blue-on-white theme */
 body {
-    padding-top: 70px; /* Space for the fixed navbar */
+    padding-top: 70px;
+    background-color: #ffffff; /* White background */
+  }
+  
+  .navbar {
+    background-color: #007bff; /* Blue navbar background */
+  }
+  
+  .navbar-dark .navbar-brand {
+    color: #ffffff; /* White text for the navbar brand */
+  }
+  
+  .nav-link {
+    color: #007bff; /* Blue text for navbar links */
+  }
+  
+  .nav-link:hover {
+    color: #0056b3; /* Darker blue for hovered navbar links */
   }
   
 .section {
